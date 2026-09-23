@@ -160,7 +160,7 @@ This is just a plain old plugin, it loads the .NET runtime, and from the it also
 ```
 
 
-That's it! If all goes according to plan, you should see "Hello <name>" printed in your chat window. In place of the MQ2.WriteChat function, you could have instead used:
+That's it! If all goes according to plan, you should see "Hello &lt;name&gt;" printed in your chat window. In place of the MQ2.WriteChat function, you could have instead used:
 
 ```csharp
 MQ2.DoCommand("/echo Hello " + TLO.Me.Name);

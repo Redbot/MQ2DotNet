@@ -1,0 +1,5 @@
+docs_repository: "https://github.com/Redbot/MQ2DotNet"
+docs_edit_uri: "edit/readguides/"
+docs_path_transform:
+  from: "projects/mq2dotnet/"
+  to: "docs/"
